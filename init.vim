@@ -1,4 +1,4 @@
-"Plugin Lists  
+"Plugin Lists   
 source ~\AppData\Local\nvim\vim-plug\plugins.vim
 "Theme Settings
 source ~\AppData\Local\nvim\themes\airline.vim
