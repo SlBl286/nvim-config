@@ -7,3 +7,8 @@ source ~\AppData\Local\nvim\settings\settings.vim
 
 "Plugin Settings
 source ~\AppData\Local\nvim\settings\NerdTreeSettings.vim
+
+
+lua << EOF
+require("init")
+EOF

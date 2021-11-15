@@ -29,7 +29,7 @@ call plug#begin('C:/User/AppData/Local/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     
     "Code Intellisence
-    Plug 'file://coc.nvim/plugin/coc.vim'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'alvan/vim-closetag'
     Plug 'mattn/emmet-vim'
 
