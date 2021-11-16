@@ -8,5 +8,5 @@ source ~\AppData\Local\nvim\settings\NerdTreeSettings.vim
 
 
 lua << EOF
-require('init')
+require("init")
 EOF
