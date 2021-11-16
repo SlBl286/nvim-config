@@ -1,1 +1,1 @@
-:nnoremap <F2> :buffers<CR>:buffer<Space>
+:nnoremap <F2> :buffers <CR> :buffer <Space>

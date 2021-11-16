@@ -32,10 +32,13 @@ call plug#begin('C:/User/AppData/Local/nvim/autoload/plugged')
     Plug 'file://coc.nvim/plugin/coc.vim'
     Plug 'alvan/vim-closetag'
     Plug 'mattn/emmet-vim'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
 
     "Code syntax hightlight
     call plug#end()
 
     "setting for plugins
     
-    
+   let g:lsc_auto_map = v:true 
