@@ -1,14 +1,11 @@
-"Plugin Lists   
-source ~\AppData\Local\nvim\vim-plug\plugins.vim
-"Theme Settings
-source ~\AppData\Local\nvim\themes\airline.vim
-"Genaral Settings
-source ~\AppData\Local\nvim\settings\settings.vim
-
-"Plugin Settings
-source ~\AppData\Local\nvim\settings\NerdTreeSettings.vim
-
-
-lua << EOF
-require("init")
-EOF
+" Plugins list
+  source ~/AppData/Local/nvim/vim-plug/plugins.vim
+" General setting
+  source ~/AppData/Local/nvim/general/settings.vim
+" Key mapping
+  source ~/AppData/Local/nvim/keys/mappings.vim
+" Theme
+  source ~/AppData/Local/nvim/themes/onedark.vim
+" Plugins Config
+  source ~/AppData/Local/nvim/plug-config/coc.vim
+  source ~/AppData/Local/nvim/plug-config/nerd-tree.vim

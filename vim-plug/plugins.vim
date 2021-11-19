@@ -1,41 +1,27 @@
 " auto-install vim-plug
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
+if empty(glob('~/AppData/Local/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   "autocmd VimEnter * PlugInstall
   "autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
-call plug#begin('C:/User/AppData/Local/nvim/autoload/plugged')
-    "theme
-    Plug 'joshdick/onedark.vim'
+call plug#begin('~/AppData/Local/nvim/autoload/plugged')
+
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
-    Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'ryanoasis/vim-devicons'
     Plug 'scrooloose/nerdtree-project-plugin'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-    
-    "file search
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }    
-    Plug 'junegunn/fzf.vim'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    
-    "startus bar
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    
-    "Code Intellisence
+    " Theme
+    Plug 'joshdick/onedark.vim' 
+    " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'alvan/vim-closetag'
-    Plug 'mattn/emmet-vim'
-
-    "Code syntax hightlight
+    " Theme for status bar
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes' 
     call plug#end()
-
-    "setting for plugins
-    
-    
