@@ -6,6 +6,7 @@
   source ~/AppData/Local/nvim/keys/mappings.vim
 " Theme
   source ~/AppData/Local/nvim/themes/onedark.vim
+  source ~/AppData/Local/nvim/themes/airline.vim
 " Plugins Config
   source ~/AppData/Local/nvim/plug-config/coc.vim
   source ~/AppData/Local/nvim/plug-config/nerd-tree.vim
