@@ -32,6 +32,7 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 "close buffer 
 fu! CloseCurrentBuffer()                                                                                                                                                                                              
   let b = expand('%:p') 
+  execute ":on"
   execute "bnext"
   execute ":bd ".b
 endf                                                                                                                                                                                                        
