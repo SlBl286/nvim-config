@@ -11,17 +11,22 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
-    Plug 'scrooloose/NERDTree'
-    Plug 'ryanoasis/vim-devicons'
-    Plug 'scrooloose/nerdtree-project-plugin'
-    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+    "Plug 'ryanoasis/vim-devicons'
+    "Plug 'scrooloose/nerdtree-project-plugin'
+    "Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Theme
     Plug 'joshdick/onedark.vim' 
+    Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'junegunn/rainbow_parentheses.vim'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    "code intelligence
+    Plug 'honza/vim-snippets' 
     " Theme for status bar
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes' 
+    " key binding for comment
+    Plug 'tpope/vim-commentary' 
     call plug#end()

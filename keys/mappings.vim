@@ -9,7 +9,7 @@ nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
 " I hate escape more than anything else
-inoremap jk <Esc>
+inoremap jk <Esc> 
 inoremap kj <Esc>
 
 " Easy CAPS
@@ -29,7 +29,13 @@ nnoremap <C-Q> :wq!<CR>
 nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-
+"close buffer 
+fu! CloseCurrentBuffer()                                                                                                                                                                                              
+  let b = expand('%:p') 
+  execute "bnext"
+  execute ":bd ".b
+endf                                                                                                                                                                                                        
+map  <silent> <C-d>  <CR>:call CloseCurrentBuffer()<CR>
 " Better tabbing
 vnoremap < <gv
 vnoremap > >gv
