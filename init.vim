@@ -21,4 +21,5 @@
   source ~/AppData/Local/nvim/plug-config/coc.vim
   source ~/AppData/Local/nvim/plug-config/commentary.vim
   source ~/AppData/Local/nvim/plug-config/rainbow.vim
+  source ~/AppData/Local/nvim/plug-config/floatterm.vim
 

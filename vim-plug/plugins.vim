@@ -29,4 +29,6 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes' 
     " key binding for comment
     Plug 'tpope/vim-commentary' 
+    "terminal
+    Plug 'voldikss/vim-floaterm'
     call plug#end()
