@@ -31,4 +31,6 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'tpope/vim-commentary' 
     "terminal
     Plug 'voldikss/vim-floaterm'
+    "shortcut
+    Plug 'liuchengxu/vim-which-key'
     call plug#end()

@@ -13,6 +13,7 @@
   source ~/AppData/Local/nvim/general/path.vim
 " Key mapping
   source ~/AppData/Local/nvim/keys/mappings.vim
+  source ~/AppData/Local/nvim/keys/which-key.vim
 " Theme
   source ~/AppData/Local/nvim/themes/onedark.vim
   source ~/AppData/Local/nvim/themes/airline.vim
