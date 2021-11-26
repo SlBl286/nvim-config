@@ -14,3 +14,7 @@ Orange
 Violet
 Pink
 #FF54ED
+#fac913
+#220287
+Luna
+Gold

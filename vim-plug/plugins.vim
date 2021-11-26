@@ -33,4 +33,9 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     "shortcut
     Plug 'liuchengxu/vim-which-key'
+    "git integration
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
     call plug#end()
